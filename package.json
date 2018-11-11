@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "inspect-web-server": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ak239/inspect-web-server.git"
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/ak239/inspect-web-server/issues"
   },
-  "homepage": "https://github.com/ak239/inspect-web-server#readme"
+  "homepage": "https://github.com/ak239/inspect-web-server#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "update-notifier": "^2.5.0",
+    "ws": "^6.1.0"
+  }
 }
